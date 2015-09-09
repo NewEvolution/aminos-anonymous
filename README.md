@@ -4,11 +4,11 @@ A science matching game where you the player need to capture amino acids in sequ
 
 Built with Phaser http://www.phaser.io/
 
-##Requirements:
+###Requirements:
 - Node.js https://nodejs.org/en/
 - Installation of http-server via _npm install -g http-server_
 
-##Post-clone Installation:
+###Post-clone Installation:
 - inside the _lib_ directory:
   - run _npm install_
   - run _bower install_
