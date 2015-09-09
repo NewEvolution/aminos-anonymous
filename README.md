@@ -14,4 +14,5 @@ Built with Phaser http://www.phaser.io/
   - run _bower install_
 - inside the main repo directory:
  - run _http-server_
-- navigate to http://localhost:8000/#/game
+ - make note of the port number returned after running _http-server_
+- navigate to http://localhost:<your-port-number>/#/game
