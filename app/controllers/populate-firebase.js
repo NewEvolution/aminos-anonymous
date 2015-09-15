@@ -19,7 +19,7 @@ define([
     function($firebaseArray, $firebaseObject, $routeParams) {
       this.aminoAcid = {};
       this.sequence = "";
-      var ref = new Firebase("https://aminos-anonymous-group.firebaseio.com/protein");
+      var ref = new Firebase("https://aminos-anonymous.firebaseio.com/protein");
       this.protein = $firebaseArray(ref);
       this.addProtein = function() {
         arrayOfSequence = this.sequence.split("-");

@@ -14,8 +14,8 @@ define([
 	}])
 	.controller("gameCtrl", ["$firebaseArray", "uid", function($firebaseArray, uid) {
 
-		var proteinRef = new Firebase("https://aminos-anonymous-group.firebaseio.com/protein");
-		var userRef = new Firebase("https://aminos-anonymous-group.firebaseio.com/users");
+		var proteinRef = new Firebase("https://aminos-anonymous.firebaseio.com/protein");
+		var userRef = new Firebase("https://aminos-anonymous.firebaseio.com/users");
 
 		var proteinArr = $firebaseArray(proteinRef);
 		var userArr = $firebaseArray(userRef);
